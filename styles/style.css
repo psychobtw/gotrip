@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RR';
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-nav {
+    background: #3E8989;
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 165px;
+    width: 100%;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-nav-link {
+    color: rgb(255, 255, 255);
+    font-family: 'RM';
+    font-size: 16px;
+    line-height: 19px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    transition: border-bottom 300ms;
+}
+
+.header-nav-link:hover {
+    border-bottom: 2px solid white;
+}
+
+.header-form {
+    max-width: 290px;
+    width: 100%;
+    display: flex;
+
+}
+
+.header-form-text {
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    color: rgb(137, 137, 137);
+    font-size: 16px;
+    line-height: 19px;
+    padding: 8px 20px;
+    width: 100%;
+}
+
+.header-form-btn {
+    border-radius: 0px 20px 20px 0px;
+    background: rgb(41, 94, 94);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 17px;
+    padding: 9px 14px;
+    border: none;
+    outline: none;
+}
+
+.header-content {
+    height: 800px;
+    background: url(../images/header-banner.jpg) no-repeat center /cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-content-title {
+    color: rgb(255, 255, 255);
+    font-family: 'RSB';
+    font-size: 80px;
+    line-height: 95px;
+}
+
+.header-content-text {
+    color: rgb(255, 255, 255);
+    font-family: 'RM';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.header-content-link {
+    border-radius: 30px;
+    background: rgb(180, 67, 108);
+    padding: 14px 77px;
+    color: rgb(255, 255, 255);
+    font-family: 'ISB';
+    font-size: 18px;
+    line-height: 22px;
+    transition: background 300ms, color 300ms;
+}
+
+.header-content-link:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(180, 67, 108);
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(62, 137, 137);
+    font-family: 'ISB';
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.main-top {
+    display: flex;
+    gap: 20px;
+}
+
+.main-top-text {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 20px;
+}
+
+.main-box-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.main-center-section {
+    display: flex;
+    width: 100%;
+}
+
+.main-section-item {
+    width: 263px;
+    height: 300px;
+    background: rgb(239, 239, 239);
+    margin-left: 20px;
+}
+
+.main-center-text {
+    color: rgb(0, 0, 0);
+    font-family: 'ISB';
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    transition: color 300ms;
+}
+
+.main-center-text:hover {
+    color: rgb(180, 67, 108);
+}
+
+.main-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-bottom-title {
+    margin-top: 130px;
+    color: rgb(62, 137, 137);
+    font-family: 'ISB';
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 50px;
+}
+
+.main-bottom-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-bottom-text {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 100px;
+    width: 555px;
+    text-align: left;
+}
+
+.main-bottom-tel,
+.main-bottom-mail {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.footer {
+    background: rgb(62, 137, 137);
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+.footer-list-link {
+    color: rgb(255, 255, 255);
+    font-family: 'RM';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer-text {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
