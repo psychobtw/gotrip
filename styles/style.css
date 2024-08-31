@@ -28,9 +28,14 @@ ul {
     width: 100%;
 }
 
+.logo {
+    margin-top: 5px;
+}
+
 .header-nav-list {
     display: flex;
     gap: 30px;
+    margin-top: 8px;
 }
 
 .header-nav-link {
@@ -154,13 +159,11 @@ ul {
 .main-center-section {
     display: flex;
     width: 100%;
+    gap: 20px;
 }
 
 .main-section-item {
     width: 263px;
-    height: 300px;
-    background: rgb(239, 239, 239);
-    margin-left: 20px;
 }
 
 .main-center-text {
@@ -170,7 +173,7 @@ ul {
     line-height: 29px;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    padding: 30px;
     transition: color 300ms;
 }
 
@@ -203,7 +206,8 @@ ul {
     line-height: 24px;
     text-align: center;
     padding-bottom: 100px;
-    width: 555px;
+    max-width: 555px;
+    width: 100%;
     text-align: left;
 }
 
@@ -241,4 +245,89 @@ ul {
     display: flex;
     justify-content: center;
     padding-bottom: 15px;
+}
+
+/* Media requests */
+
+@media(max-width:1140px) {
+    .main-center-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-box-left img {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:1000px) {
+    .header-nav {
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo {
+        justify-content: center;
+    }
+    .main-top-text {
+        text-align: center;
+    }
+}
+
+@media(max-width:600px) {
+    .header-nav-list {
+        gap: 15px;
+    }
+    .header-content-title {
+        font-size: 65px;
+    }
+    .header-content-text {
+        font-size: 30px;
+    }
+    .main-box-left img {
+        display: none;
+    }
+    .header-form {
+        display: none;
+    }
+}
+
+@media(max-width:425px) {
+    .header-nav-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-content-title {
+        font-size: 47px;
+    }
+    .header-content-text {
+        font-size: 24px;
+    }
+    .header-content-link {
+        font-size: 13px;
+        padding: 10px 60px;
+    }
+    .main-bottom {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-bottom-title {
+        text-align: center;
+    }
+    .main-bottom-text {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .main-bottom-left {
+        margin-bottom: 20px;
+        gap: 5px;
+    }
 }
